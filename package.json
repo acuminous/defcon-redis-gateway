@@ -1,0 +1,29 @@
+{
+  "name": "defcon-redis-gateway",
+  "version": "0.1.0",
+  "description": "Receives and forwards events via redis pubsub",
+  "main": "plugin.js",
+  "scripts": {
+    "test": "mocha --recursive --reporter spec tests/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/acuminous/defcon-redis-gateway.git"
+  },
+  "author": "Stephen Cresswell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acuminous/defcon-redis-gateway/issues"
+  },
+  "homepage": "https://github.com/acuminous/defcon-redis-gateway",
+  "dependencies": {
+    "async": "^0.2.10",
+    "lodash": "^2.4.1",
+    "redis": "^0.10.1",
+    "uuid": "^1.4.1"
+  },
+  "devDependencies": {
+    "mocha": "^1.18.2",
+    "chai": "^1.9.1"
+  }
+}
