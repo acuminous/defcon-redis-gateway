@@ -7,10 +7,10 @@ Receives or forwards events via Redis pubsub
 1. [redis](http://redis.io)
 
 ## Installation
-1. '''cd $DEFCON_INSTALL_DIR'''
-2. '''npm install defcon-redis-gateway'''
-3. '''Enable and configure 'defcon-redis-gateway' in your DEFCON configuration file, e.g.
-'''json
+1. ```cd $DEFCON_INSTALL_DIR```
+2. ```npm install defcon-redis-gateway```
+3. Enable and configure 'defcon-redis-gateway' in your DEFCON configuration file, e.g.
+```json
 {
     "plugins": {
         "installed": [
@@ -42,6 +42,6 @@ Receives or forwards events via Redis pubsub
         }        
     }
 }
-'''
+```
 4. Be careful not to create an infinite loop with your publish and subscribe configuration
 5. Restart defcon (you can do this via '''kill -s USRSIG2 <pid>''' if you want zero downtime)
